@@ -1,7 +1,7 @@
 AFRAME.registerComponent('move-box', {
     // Inital Render - Schema
     schema: {
-        moveY: { type: 'number', default:1 }
+        moveX: { type: 'number', default:1 }
     },
     // Componenet Did Update 
     tick: function(){
